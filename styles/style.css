@@ -15,3 +15,9 @@ banner background images styles
     background-image: url(../images/carousel/3.jpg);
     height: 100vh;
 }
+/* ------------------
+client section style 
+------------------- */
+.client-img{
+width: 160px;
+}
