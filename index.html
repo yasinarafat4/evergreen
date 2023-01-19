@@ -1,18 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/bootstrap.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="images/iconevergreen.png">
+    <link rel="icon" type="image/x-icon" href="images/iconevergreen.png" />
     <title>EverGreen</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <header>
+      <!---------
+       navbar
+    ----------->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <h1 class="display-4 fw-bold text-primary">
+              Ever<span class="text-secondary">Green</span>
+            </h1>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-primary"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-primary" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown text-primary">
+                  <a
+                    class="nav-link dropdown-toggle text-primary"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu text-primary">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-primary">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!----------------------------------
+            banner section with carousel
+        --------------------------------->
+      <section>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="banner-img-1 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="display-3 fw-bold text-primary">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >your ideas</span
+                    ><br />happen!
+                  </h1>
+                  <p class="text-primary">
+                    The most informative blockchain news source. Publishing
+                    multiple articles and videos daily
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                  <button class="btn btn-secondary">Our Projects</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="banner-img-2 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="display-3 fw-bold text-primary">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >your ideas</span
+                    ><br />happen!
+                  </h1>
+                  <p class="text-primary">
+                    The most informative blockchain news source. Publishing
+                    multiple articles and videos daily
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                  <button class="btn btn-secondary">Our Projects</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="banner-img-3 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="display-3 fw-bold text-primary">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >your ideas</span
+                    ><br />happen!
+                  </h1>
+                  <p class="text-primary">
+                    The most informative blockchain news source. Publishing
+                    multiple articles and videos daily
+                  </p>
+                  <button class="btn btn-primary">Get Started</button>
+                  <button class="btn btn-secondary">Our Projects</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-------------------
+            about section
+        ------------------->
+      <section class="container my-5 py-5">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="fw-bold text-primary">Who we are</h1>
+            <p>The reason for choosing us</p>
+            <ul>
+              <li>
+                Our services go beyond just landscaping; we create your ideal
+                outdoor oasis.
+              </li>
+              <li>
+                Our team of experts with years of experience will design, build,
+                and install your new outdoor space.
+              </li>
+              <li>
+                Our designers continuously utilize modern techniques and
+                materials based on proven methods, to deliver results that will
+                stand the test of time and protect your investment.
+              </li>
+              <li>
+                Our attention to detail and careful precision allow us to
+                properly plan, build, and maintain your property.
+              </li>
+              <li>
+                We work with you closely through every step of the process to
+                ensure your vision truly comes to life.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="images/about-img.png" alt="about" />
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- bs js -->
     <script src="js/bootstrap.js"></script>
-</body>
+  </body>
 </html>
