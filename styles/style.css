@@ -1,23 +1,21 @@
-
-
 /* -----------------------------
 banner background images styles
 -------------------------------- */
-.banner-img-1{
-    background-image: url(../images/1.jpg);
-    height: 100vh;
+.banner-img-1 {
+  background-image: url(../images/1.jpg);
+  height: 100vh;
 }
-.banner-img-2{
-    background-image: url(../images/2.jpg);
-    height: 100vh;
+.banner-img-2 {
+  background-image: url(../images/2.jpg);
+  height: 100vh;
 }
-.banner-img-3{
-    background-image: url(../images/3.jpg);
-    height: 100vh;
+.banner-img-3 {
+  background-image: url(../images/3.jpg);
+  height: 100vh;
 }
 /* ------------------
 client section style 
 ------------------- */
-.client-img{
-width: 160px;
+.client-img {
+  width: 160px;
 }
